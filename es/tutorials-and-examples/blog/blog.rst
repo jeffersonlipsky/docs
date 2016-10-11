@@ -133,12 +133,12 @@ tabla, ejecuta el siguiente código SQL en ella::
 La elección de los nombres para el nombre de la tabla y de algunas columnas no
 se ha hecho al azar. Si sigues las convenciones para nombres en la Base de
 Datos, y las demás convenciones en tus clases (ver más sobre convenciones aquí:
-:doc:`/intro/conventions`), aprovecharás la potencia del
+:doc:`Convenciones CakePHP</intro/conventions>`), aprovecharás la potencia del
 framework y ahorrarás mucho trabajo de configuración. CakePHP es suficientemente
 flexible como para acomodarse hasta en el peor esquema de base de datos, pero
 utilizando las convenciones ahorrarás tiempo.
 
-Echa un vistazo a :doc:`las convencionnes </intro/conventions>`
+Echa un vistazo a :doc:`las convenciones </intro/conventions>`
 para más información, pero basta decir que nombrando nuestra tabla 'articles'
 automáticamente lo vincula a nuestro modelo Articles y que campos
 llamados `modified` y `created` serán gestionados automáticamente por CakePHP.
@@ -153,7 +153,7 @@ Configurando la Base de Datos
 
 Rápido y sencillo, vamos a decirle a CakePHP dónde está la Base de Datos y cómo
 conectarnos a ella. Seguramente esta sea la primera y última vez que configuras
-nada.
+algo.
 
 Una copia del fichero de configuración de CakePHP puede ser hallado en
 **config/app.default.php**. Copia este fichero en su mismo directorio, pero
